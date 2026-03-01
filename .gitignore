@@ -1,0 +1,62 @@
+# =====================================================================
+# VeritasCarbon-VLDB2026 — .gitignore
+# =====================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual / Conda environments
+venv/
+.venv/
+env/
+ENV/
+.conda/
+VeritasCarbon/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/unsloth_compiled_cache/
+
+# Logs
+*.log
+logs/
+
+# API keys / secrets
+.env
+*.key
+configs/secrets.yaml
+
+# Models (too large for git)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary / debug files
+*.tmp
+*.bak

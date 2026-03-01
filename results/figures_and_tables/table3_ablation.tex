@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Ablation study results across four dimensions. Best results per dimension are in \textbf{bold}.}
+\label{tab:ablation}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Dimension & Setting & Quality & ROUGE-L & BLEU-4 & Distinct-2 & Domain Rel. & FactCheck \\
+\midrule
+Expert Count & K=1 & 0.6136 & 0.1183 & 0.0694 & 0.1980 & 0.0830 & 0.9457 \\
+ & K=2 & 0.6378 & 0.1484 & 0.1134 & 0.2134 & 0.0881 & \textbf{0.9665} \\
+ & K=3 & \textbf{0.6479} & 0.1514 & \textbf{0.1333} & \textbf{0.2324} & \textbf{0.1026} & 0.9506 \\
+ & K=5 & 0.6444 & \textbf{0.1639} & 0.1187 & 0.2127 & 0.0924 & 0.9590 \\
+\midrule
+Collaboration & None & 0.6214 & 0.1433 & 0.0935 & 0.1993 & 0.0807 & 0.9578 \\
+ & Sequential & 0.6456 & 0.1599 & \textbf{0.1297} & \textbf{0.2278} & \textbf{0.0952} & \textbf{0.9703} \\
+ & Parallel & \textbf{0.6503} & \textbf{0.1686} & 0.1257 & 0.2223 & 0.0930 & 0.9439 \\
+\midrule
+Feedback Rounds & R=0 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & \textbf{1.0000} \\
+ & R=1 & 0.6279 & \textbf{0.1489} & 0.0905 & \textbf{0.2106} & \textbf{0.0859} & 0.9633 \\
+ & R=2 & \textbf{0.6307} & 0.1430 & \textbf{0.1182} & 0.2105 & 0.0741 & 0.9709 \\
+\midrule
+Knowledge Injection & Off & 0.6302 & \textbf{0.1799} & 0.1051 & \textbf{0.2203} & \textbf{0.0978} & \textbf{0.9579} \\
+ & On & \textbf{0.6392} & 0.1623 & \textbf{0.1117} & 0.2170 & 0.0974 & 0.9535 \\
+\bottomrule
+\end{tabular}}
+\end{table}

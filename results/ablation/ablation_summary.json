@@ -1,0 +1,94 @@
+{
+  "expert_count": {
+    "expert_count_1": {
+      "n": 200,
+      "avg_quality": 0.6136,
+      "std_quality": 0.093,
+      "avg_instruction_length": 87.8,
+      "avg_response_length": 627.8
+    },
+    "expert_count_2": {
+      "n": 200,
+      "avg_quality": 0.6378,
+      "std_quality": 0.093,
+      "avg_instruction_length": 106.7,
+      "avg_response_length": 650.2
+    },
+    "expert_count_3": {
+      "n": 200,
+      "avg_quality": 0.6479,
+      "std_quality": 0.0967,
+      "avg_instruction_length": 111.6,
+      "avg_response_length": 622.3
+    },
+    "expert_count_5": {
+      "n": 200,
+      "avg_quality": 0.6444,
+      "std_quality": 0.0862,
+      "avg_instruction_length": 126.5,
+      "avg_response_length": 697.4
+    }
+  },
+  "collaboration": {
+    "collab_none": {
+      "n": 200,
+      "avg_quality": 0.6214,
+      "std_quality": 0.11,
+      "avg_instruction_length": 94.2,
+      "avg_response_length": 659.8
+    },
+    "collab_sequential": {
+      "n": 200,
+      "avg_quality": 0.6456,
+      "std_quality": 0.1011,
+      "avg_instruction_length": 103.1,
+      "avg_response_length": 608.8
+    },
+    "collab_parallel": {
+      "n": 200,
+      "avg_quality": 0.6503,
+      "std_quality": 0.0852,
+      "avg_instruction_length": 85.5,
+      "avg_response_length": 668.8
+    }
+  },
+  "feedback": {
+    "feedback_0": {
+      "n": 200,
+      "avg_quality": 0.0,
+      "std_quality": 0.0,
+      "avg_instruction_length": 0,
+      "avg_response_length": 0
+    },
+    "feedback_1": {
+      "n": 200,
+      "avg_quality": 0.6279,
+      "std_quality": 0.1041,
+      "avg_instruction_length": 106.6,
+      "avg_response_length": 660.1
+    },
+    "feedback_2": {
+      "n": 200,
+      "avg_quality": 0.6307,
+      "std_quality": 0.1066,
+      "avg_instruction_length": 107.3,
+      "avg_response_length": 648.0
+    }
+  },
+  "knowledge": {
+    "knowledge_off": {
+      "n": 200,
+      "avg_quality": 0.6302,
+      "std_quality": 0.0924,
+      "avg_instruction_length": 97.2,
+      "avg_response_length": 641.1
+    },
+    "knowledge_on": {
+      "n": 200,
+      "avg_quality": 0.6392,
+      "std_quality": 0.088,
+      "avg_instruction_length": 99.0,
+      "avg_response_length": 638.7
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "CoDE (ours)": {
+    "label": "CoDE (ours)",
+    "n": 2000,
+    "avg_instruction_length": 106.7,
+    "avg_response_length": 377.7,
+    "rouge_l": 0.3433,
+    "bleu4": 0.1936,
+    "distinct_1": 0.0032,
+    "distinct_2": 0.1065,
+    "distinct_3": 0.3054,
+    "domain_relevance": 0.3614,
+    "factcheck": 0.9463,
+    "structural_completeness": 0.998,
+    "avg_quality_score": 0.6664
+  },
+  "direct_prompting": {
+    "label": "direct_prompting",
+    "n": 500,
+    "avg_instruction_length": 128.1,
+    "avg_response_length": 959.6,
+    "rouge_l": 0.0892,
+    "bleu4": 0.0456,
+    "distinct_1": 0.0026,
+    "distinct_2": 0.0221,
+    "distinct_3": 0.0501,
+    "domain_relevance": 0.0216,
+    "factcheck": 0.8692,
+    "structural_completeness": 1.0,
+    "avg_quality_score": null
+  },
+  "self_instruct": {
+    "label": "self_instruct",
+    "n": 500,
+    "avg_instruction_length": 92.8,
+    "avg_response_length": 706.1,
+    "rouge_l": 0.0401,
+    "bleu4": 0.0096,
+    "distinct_1": 0.0014,
+    "distinct_2": 0.007,
+    "distinct_3": 0.0264,
+    "domain_relevance": 0.004,
+    "factcheck": 0.9362,
+    "structural_completeness": 1.0,
+    "avg_quality_score": null
+  },
+  "wizardlm_evol": {
+    "label": "wizardlm_evol",
+    "n": 500,
+    "avg_instruction_length": 2581.6,
+    "avg_response_length": 3201.9,
+    "rouge_l": 0.0336,
+    "bleu4": 0.0118,
+    "distinct_1": 0.0008,
+    "distinct_2": 0.0069,
+    "distinct_3": 0.018,
+    "domain_relevance": 0.0228,
+    "factcheck": 0.5682,
+    "structural_completeness": 1.0,
+    "avg_quality_score": null
+  }
+}

@@ -1,0 +1,5 @@
+method,avg_instruction_length,avg_quality_score,avg_response_length,bleu4,distinct_1,distinct_2,distinct_3,domain_relevance,factcheck,n,rouge_l,structural_completeness
+CoDE (ours),106.7,0.6664,377.7,0.1936,0.0032,0.1065,0.3054,0.3614,0.9463,2000,0.3433,0.998
+direct_prompting,128.1,,959.6,0.0456,0.0026,0.0221,0.0501,0.0216,0.8692,500,0.0892,1.0
+self_instruct,92.8,,706.1,0.0096,0.0014,0.007,0.0264,0.004,0.9362,500,0.0401,1.0
+wizardlm_evol,2581.6,,3201.9,0.0118,0.0008,0.0069,0.018,0.0228,0.5682,500,0.0336,1.0
